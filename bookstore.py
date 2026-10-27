@@ -21,7 +21,8 @@ class Book(object):
 
 
     # Task 4: add a method __str__() that returns e.g. 'Persuasion by Jane Austen'
-
+    def __str__(self):
+        return self.title + "authored by" + self.author
 
 book = Book('Persuasion', 'Jane Austen', 8.99)
 
