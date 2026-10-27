@@ -11,7 +11,8 @@ class Book(object):
 
 
     # Task 2: add a method get_price() that returns the price
-
+    def get_price(self):
+        return self.price
 
     # Task 3 (teams of three only): add a method get_author() that returns the author
 
@@ -25,7 +26,7 @@ book = Book('Persuasion', 'Jane Austen', 8.99)
 
 # print(book.get_title())    # Task 1
 
-# print(book.get_price())    # Task 2
+print(book.get_price())    # Task 2
 
 # print(book.get_author())   # Task 3
 
